@@ -1,0 +1,112 @@
+@media only screen and (max-width: 992px) {
+  /*Thay đổi thông số hình avarta - NÂNG CAO*/
+  #avatar {
+    display: none;
+  }
+
+  /*Căn chỉnh tên MỤC TIÊU NGHỀ NGHIỆP - THÔNG TIN CÁ NHÂN*/
+
+  #about .container-fluid.section-title {
+    margin-top: 20px;
+  }
+  th,
+  td,
+  .target-p {
+    font-size: 80%;
+  }
+
+  /*THÔNG TIN CÔNG VIỆC*/
+  /*CHIA 2 cột*/
+  .job-info-grid {
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 5%;
+  }
+  .job-info-grid article {
+    height: max-content;
+  }
+  .skill,
+  .lang,
+  .hobby {
+    height: max-content;
+  }
+  .skill ul li {
+    padding-left: 1%;
+  }
+  .lang {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+  }
+  .job-info-grid .container {
+    columns: 2;
+    column-gap: 10px;
+  }
+  /*CHỨNG CHỈ - GIẢI THƯỞNG*/
+  #certificate .section-title {
+    padding-top: 12%;
+  }
+  #certificate .container {
+    margin-left: 6%;
+    padding-left: 0%;
+  }
+  #certificate .cer ul {
+    grid-template-columns: 100%;
+  }
+  #cer1 {
+    border-right: 1px solid #d6c08d;
+  }
+
+  .borderright {
+    border-right: none;
+  }
+
+  #certificate ul .GPA .text,
+  .text-content2 {
+    margin-left: 8%;
+  }
+  /*DỰ ÁN*/
+  #project .section-title {
+    text-align: left;
+    margin-left: -12px;
+    margin-top: 6%;
+  }
+  /*Tạo 3 cột bằng nhau*/
+  #project .pro-content {
+    grid-template-columns: repeat(3, auto);
+    column-gap: 10px;
+    max-width: 992px;
+    margin-left: 0px;
+  }
+  #project .pro-content .pro-content-1,
+  .pro-content-2,
+  .pro-content-3 {
+    max-width: 250px;
+  }
+  #project .pro-content img {
+    max-width: 250px;
+  }
+  /*TÊN DỰ ÁN */
+  .name-project {
+    font-weight: bold;
+  }
+  /*Tạo đường kẻ nhạt giữa ô như yêu đề bài yêu cầu hiển thị*/
+
+  #project .time ul {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0%;
+    font-size: 80%;
+  }
+  .time-line {
+    font-size: 80%;
+    margin: -5% 5% auto 10%;
+  }
+  .time-lamp {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  /*Kết thúc project*/
+
+  /*Kết thúc body*/
+}
